@@ -1,126 +1,177 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.heading{
-    background-image: linear-gradient(to bottom , rgba(8, 10, 17, 0.801), rgba(75, 56, 70, 0.103)) ,url('../resources/banner1.png');
+.heading {
+    background-image: linear-gradient(to bottom, rgba(8, 10, 17, 0.801), rgba(75, 56, 70, 0.103)), url('../resources/banner1.png');
     background-repeat: no-repeat;
     margin: 5px auto;
     width: 1300px;
-    height: 600px;  
+    height: 600px;
     border-radius: 10px;
 
 }
-.new-year{
+
+.new-year {
     color: white;
     text-align: center;
     padding: 160px 340px;
     color: rgb(243, 237, 237);
 }
-.bold-line{
+
+.bold-line {
     font-size: 60px;
-    
+
 }
 
-.sale-description{
+.sale-description {
     text-align: center;
-    
+
 }
-.section-title{
+
+.section-title {
     font-size: 65px;
     color: red;
-    
-    
+
+
 }
-.section-idea{
+
+.section-idea {
     color: red;
     margin: 15px 1px;
 }
-.section-catagories{
+
+.section-catagories {
     font-size: 30px;
 }
-#new-year-img{
+
+#new-year-img {
     margin-top: 0;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
 }
-.party-description{
-    background-image:linear-gradient(to left , rgba(78, 78, 75, 0.233), rgba(34, 30, 34, 0.938)) , url('../resources/Vectorrr.png') ;
+
+.party-description {
+    background-image: linear-gradient(to left, rgba(78, 78, 75, 0.233), rgba(34, 30, 34, 0.938)), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     margin: 10px auto;
     width: 1300px;
-    height: 600px;  
+    height: 600px;
     border-radius: 10px;
     display: flex;
 
 }
-.section-heading, .section-description{
+
+.section-heading,
+.section-description {
     text-align: left;
 }
-.text-column{
+
+.text-column {
     margin-top: 130px;
     margin-left: 130px;
     margin-right: 100px;
 }
 
-.section-heading{
+.section-heading {
     font-size: 60px;
     color: white;
 }
 
-.section-description{
+.section-description {
     font-size: 15px;
     color: white;
 }
-.btn-primary{
+
+.btn-primary {
     border: 0;
     color: rgb(156, 148, 148);
     background: none;
-    font-size:15px;
+    font-size: 15px;
 
 
 }
 
-.img-column{
-    
-    background-blend-mode:multiply;
-    mix-blend-mode:lighten;
+.img-column {
+
+    background-blend-mode: multiply;
+    mix-blend-mode: lighten;
     padding-right: 150px;
     padding-top: 60px;
 
-    
+
 }
 
-.timing-container{
-    
+.timing-container {
+
     width: 1300px;
     height: 400px;
     text-align: center;
     margin: 50px 10px;
     border-radius: 15px;
-    background: linear-gradient( 180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    
-    
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+
 }
 
-.party-time{
+.party-time {
     font-size: 20px;
     width: 50%;
-    padding:100px 350px 0px 350px;
-    
-    
+    padding: 100px 350px 0px 350px;
+
+
 }
 
-.line-heading{
+.line-heading {
     color: red;
 }
-.joining-btn{
+
+.joining-btn {
     background-color: red;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+.section-offer {
+    display: flex;
+    height: 460px;
+    width: 1300px;
+}
+
+.coming-offer {
+    flex: 1;
+    margin: 10px;
+
+}
+
+.offer-paragraph {
+    font-size: 15px;
+    width: 400px;
+    line-height: 20px;
+    color: rgb(56, 52, 52);
+    
+}
+
+.enjoying-offer{
+    
+    margin: 10px;  
+    width: 350px;
+    height: 350px;
+    border: 10px solid red ;
+    border-radius: 50%;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+
+}
+.year-offer{
+    flex: 1;
+    margin: 10px;
+    padding-left: 50px;
 }
