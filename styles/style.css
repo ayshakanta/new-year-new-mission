@@ -5,7 +5,7 @@ body {
 .heading {
     background-image: linear-gradient(to bottom, rgba(8, 10, 17, 0.801), rgba(75, 56, 70, 0.103)), url('../resources/banner1.png');
     background-repeat: no-repeat;
-    margin: 5px auto;
+    margin: 5px 20px;
     width: 1300px;
     height: 600px;
     border-radius: 10px;
@@ -56,7 +56,7 @@ body {
 .party-description {
     background-image: linear-gradient(to left, rgba(78, 78, 75, 0.233), rgba(34, 30, 34, 0.938)), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
-    margin: 10px auto;
+    margin: 10px 20px;
     width: 1300px;
     height: 600px;
     border-radius: 10px;
@@ -109,7 +109,7 @@ body {
     width: 1300px;
     height: 400px;
     text-align: center;
-    margin: 50px 10px;
+    margin: 50px 20px;
     border-radius: 15px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
@@ -141,6 +141,7 @@ body {
     display: flex;
     height: 460px;
     width: 1300px;
+    margin-left: 20px;
 }
 
 .coming-offer {
@@ -173,7 +174,7 @@ body {
 
 .year-offer {
     flex: 1;
-    margin: 10px;
+    margin: 20px;
     padding-left: 50px;
 }
 
@@ -185,6 +186,7 @@ body {
     width: 1300px;
     height: 600px;
     background-color: white;
+    
 }
 
 .offer-content {
@@ -252,9 +254,33 @@ body {
 
 }
 .offer-box{
-    
+    margin-left: 20px;
     background-image: url('../resources/rectangle2.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 30%;
+}
+
+
+.portfolio-details{
+    width: 1300px;
+    max-height: 600px;
+    margin-top: 100px;
+    
+}
+.portfolio-section{
+    
+    margin: 20px;
+}
+
+
+.image-row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+.image-row img{
+    width: 30%;
+    height: auto;
 }
