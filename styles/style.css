@@ -154,24 +154,107 @@ body {
     width: 400px;
     line-height: 20px;
     color: rgb(56, 52, 52);
-    
+
 }
 
-.enjoying-offer{
-    
-    margin: 10px;  
+.enjoying-offer {
+
+    margin: 10px;
     width: 350px;
     height: 350px;
-    border: 10px solid red ;
+    border: 10px solid red;
     border-radius: 50%;
-    overflow: hidden; 
+    overflow: hidden;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     display: flex;
 
 }
-.year-offer{
+
+.year-offer {
     flex: 1;
     margin: 10px;
     padding-left: 50px;
+}
+
+.year-heading {
+    color: red;
+}
+
+.offer-concept {
+    width: 1300px;
+    height: 600px;
+    background-color: white;
+}
+
+.offer-content {
+    text-align: center;
+    margin: 0;
+}
+
+.content-paragraph {
+    font-size: 15px;
+    padding-left: 260px;
+    padding-right: 260px;
+    line-height: 20px;
+    color: rgb(56, 52, 52);
+    text-align: center;
+    margin: 0px;
+}
+
+.holidays {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.red-holiday {
+    color: red;
+}
+
+.offer-image {
+    display: flex;
+    max-width: 1300px;
+    height: auto;
+    position: relative;
+    margin: 0px;
+    padding: 0;
+} 
+
+.overlape {
+
+    align-items: end;
+    display: flex;
+    display: inline-flex;
+}
+
+
+
+.girl-image {
+
+    width: 100%;
+    display: block;
+
+
+
+}
+
+.circle-image {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 40%; 
+    overflow: hidden;
+    display: block;
+    width: 100%; 
+    position: relative;
+     
+
+}
+.offer-box{
+    
+    background-image: url('../resources/rectangle2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 30%;
 }
